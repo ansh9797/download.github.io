@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secure File Download</title>
+  <style>
+    body{
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background:#ffffff;
+      margin:0;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color:#1a1a1a;
+    }
+    .container{
+      background:#ffffff;
+      padding:40px 60px;
+      border-radius:12px;
+      text-align:center;
+      box-shadow:0 4px 30px rgba(0,0,0,0.08);
+      border:1px solid #e6e6e6;
+      max-width:480px;
+      width:90%;
+    }
+    h1{
+      font-size:28px;
+      font-weight:600;
+      margin-bottom:10px;
+      color:#101828;
+    }
+    p{
+      font-size:15px;
+      margin-bottom:24px;
+      color:#475467;
+    }
+    a.button{
+      display:inline-block;
+      padding:15px 28px;
+      background:#0066ff;
+      color:#ffffff;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      font-size:15px;
+    }
+    a.button:hover{
+      background:#0052cc;
+    }
+    footer{
+      margin-top:22px;
+      font-size:13px;
+      color:#667085;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Download Your File</h1>
+    <p>Click the button below to download the ZIP file.</p>
+
+    <!-- Replace the href with your path if needed -->
+    <a class="button" href="complete-download-2.zip" download>⬇ Download ZIP</a>
+
+    <footer>File: complete-download-2.zip</footer>
+  </div>
+</body>
+</html>
